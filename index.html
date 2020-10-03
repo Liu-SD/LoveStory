@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Our Love Story</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <style type="text/css">
+        @font-face {
+            font-family: digit;
+            src: url('digital.ttf') format("truetype");
+        }
+    </style>
+    <link href="css/default.css" type="text/css" rel="stylesheet">
+    <link href="css/GITheWall.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/garden.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="js/jQuery.GI.TheWall.js"></script>
+    <script type="text/javascript" src="image/description.js"></script>
+</head>
+
+<body>
+    <div id="mainDiv">
+        <div id="content">
+            <div id="code">
+                给 我最爱的婧婧：<br>
+                在长沙这座城市<br>
+                我们俩一起走过了一年时间<br>
+                走进了彼此的生活<br>
+                与你在一起<br>
+                就好似眨眼，呼吸，心跳一般<br>
+                成为了习惯<br>
+                以至于当争吵时你说无法走下去后<br>
+                我着急得好像丢失了心跳<br>
+            </div>
+            <div id="loveHeart">
+                <canvas id="garden"></canvas>
+                <div id="words">
+                    <div id="messages">
+                        婧婧，我们在一起已经
+                        <div id="elapseClock"></div>
+                    </div>
+                    <div id="loveu">
+                        爱你如初，吻你万千<br />
+                        <div class="signature">——刘斯盾</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="GITheWall">
+                <ul id="GallaryUl">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var offsetX = $("#loveHeart").width() / 2;
+        var offsetY = $("#loveHeart").height() / 2 - 55;
+        var together = new Date();
+        // 此处月份介于 0 ~ 11 之间。用本地时间表示，如 8 月要用 7 表示。
+        together.setFullYear(2019, 9, 15);
+        together.setHours(22);
+        together.setMinutes(30);
+        together.setSeconds(0);
+        together.setMilliseconds(0);
+
+        if (!document.createElement('canvas').getContext) {
+            var msg = document.createElement("div");
+            msg.id = "errorMsg";
+            msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+            document.body.appendChild(msg);
+            $("#code").css("display", "none")
+            $("#copyright").css("position", "absolute");
+            $("#copyright").css("bottom", "10px");
+            document.execCommand("stop");
+        } else {
+            setTimeout(function () {
+                startHeartAnimation();
+            }, 5000);
+
+            timeElapse(together);
+            setInterval(function () {
+                timeElapse(together);
+            }, 500);
+
+            adjustCodePosition();
+            $("#code").typewriter();
+        }
+
+        var wall = $('.GITheWall').GITheWall({
+            nextButtonClass: 'fa fa-arrow-right',
+            prevButtonClass: 'fa fa-arrow-left',
+            closeButtonClass: 'fa fa-times'
+        });
+    </script>
+</body>
+
+</html>
