@@ -75,11 +75,12 @@ function startHeartAnimation() {
                 } else {
                     b++
                 }
+                while (c.substr(b, 1) == " ") b++
                 d.html(c.substring(0, b) + (b & 1 ? "_" : ""));
                 if (b >= c.length) {
                     clearInterval(e)
                 }
-            }, 100)
+            }, 150)
         });
         return this
     }
