@@ -30,7 +30,7 @@ var desc = {
     "https://tva2.sinaimg.cn/large/005UCIEPgy1gjjcz4m389j30m80gomyi.jpg": "草帽男孩带着他的女孩去看电影🎥",
     "https://tvax3.sinaimg.cn/large/005UCIEPgy1gjjczbqrqej32c0340qv8.jpg": "哇哦哦哦，七夕礼物是香水和可爱熊熊🐻",
     "https://tvax1.sinaimg.cn/large/005UCIEPgy1gjjczhlkw1j33402c0qv9.jpg": "时间往复，爱你如初；情长纸短，吻你万千",
-    "https://tva3.sinaimg.cn/large/005UCIEPgy1gjjczhlkw1j33402c0qv9.jpg": "谁能想到我们俩还是画家cp呢🖌",
+    "https://tvax1.sinaimg.cn/large/005UCIEPgy1gjjdf1m62zj32c0340kjp.jpg": "谁能想到我们俩还是画家cp呢🖌",
     "https://tvax3.sinaimg.cn/large/005UCIEPgy1gjjczx10x9j32c0340u10.jpg": "今天去唱歌🎙",
     "https://tvax4.sinaimg.cn/large/005UCIEPgy1gjjd02egpoj30u00u01ab.jpg": "甜心火龙果，婧婧就是小甜心呀",
     "https://tva3.sinaimg.cn/large/005UCIEPgy1gjjd07jm3yj31400u0tnb.jpg": "亲吻我的公主 甜蜜像吃泡芙💕",
