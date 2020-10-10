@@ -40,8 +40,6 @@ var desc = {
 }
 
 $(function () {
-    var imgpath = "https://liu-sd.gitee.io/lovestory/image";
-    // var imgpath = "image";
     for (filename in desc) {
         $("#GallaryUl").append(`<li data-contenttype="image" data-href="${filename}" , data-text="${desc[filename]}">
     <img src="${filename}" />
