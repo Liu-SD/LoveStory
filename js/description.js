@@ -38,6 +38,7 @@ var desc = {
     "https://tva2.sinaimg.cn/large/005UCIEPgy1gjjd0gzxljj31400u0x44.jpg": "cool girl & cool guy",
     "https://tvax3.sinaimg.cn/large/005UCIEPgy1gjjd0n7yk6j31400u0ara.jpg": "二人剪影",
     "https://tvax2.sinaimg.cn/large/005UCIEPgy1gk0u0y4gl3j30u014077e.jpg": "万家丽小吃一条街，牙再痛香锅不能缺",
+    "https://tva3.sinaimg.cn/large/005UCIEPgy1gk1zkmnju5j31w02iox6r.jpg": "㊗️婧婧小可爱生日快乐🎂",
 }
 
 $(function () {
