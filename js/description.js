@@ -38,7 +38,17 @@ var desc = {
     "https://tva2.sinaimg.cn/large/005UCIEPgy1gjjd0gzxljj31400u0x44.jpg": "cool girl & cool guy",
     "https://tvax3.sinaimg.cn/large/005UCIEPgy1gjjd0n7yk6j31400u0ara.jpg": "二人剪影",
     "https://tvax2.sinaimg.cn/large/005UCIEPgy1gk0u0y4gl3j30u014077e.jpg": "万家丽小吃一条街，牙再痛香锅不能缺",
+    "https://tvax4.sinaimg.cn/large/006CfxqRgy1gkk0c89hpwj31400u0x1x.jpg" : "第一次坐摩天轮，婧婧一点\"都不紧张\"",
     "https://tva3.sinaimg.cn/large/005UCIEPgy1gk1zkmnju5j31w02iox6r.jpg": "㊗️婧婧小可爱生日快乐🎂",
+    "https://tva4.sinaimg.cn/large/006CfxqRgy1gkk08l74yrj30u0140dy4.jpg" : "今天是LSD的生日，婧婧出发第一次见家长（心要跳出来了）",
+    "https://tvax3.sinaimg.cn/large/006CfxqRgy1gkk06p0oogj32ao328qv6.jpg" : "愿望许了挺久，后来问他是希望我们的未来预想一切成真...",
+    "https://tva1.sinaimg.cn/large/006CfxqRgy1gkk04t0frlj33k02o0x6r.jpg": "小刘的老爸拍的发在家族群里的第一张合影 把婧婧拍的挺好看嘻嘻嘻",
+    "https://tva2.sinaimg.cn/large/006CfxqRgy1gkk03een0hj30u0140n3z.jpg" : "在LSD的23岁第一天一起第一次逛花市~",
+    "https://tvax1.sinaimg.cn/large/006CfxqRgy1gkjzzi9vazj33282aonpe.jpg": "一定是世界上最丑的花（佛手），没有之一",
+    "https://tvax1.sinaimg.cn/large/006CfxqRgy1gkk00uxop2j33282aonpe.jpg" : "婧婧说：LSD以后每周下班买一束花装点餐桌",
+    "https://tva3.sinaimg.cn/large/006CfxqRgy1gkjzuk1e2kj32io1w0x6r.jpg": "人比花娇 hhhh",
+    "https://tva1.sinaimg.cn/large/006CfxqRgy1gkjzxq86roj31w02iox6r.jpg" : "日常茶颜：超多奶油和碧根果的一次幽兰拿铁！喜欢",
+    "https://tvax1.sinaimg.cn/large/006CfxqRgy1gkk0gp84k4j33282aokjn.jpg" : "盛香亭和茶颜老好搭档辽~",
 }
 
 $(function () {
