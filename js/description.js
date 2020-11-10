@@ -38,7 +38,7 @@ var desc = {
     "https://tva2.sinaimg.cn/large/005UCIEPgy1gjjd0gzxljj31400u0x44.jpg": "cool girl & cool guy",
     "https://tvax3.sinaimg.cn/large/005UCIEPgy1gjjd0n7yk6j31400u0ara.jpg": "二人剪影",
     "https://tvax2.sinaimg.cn/large/005UCIEPgy1gk0u0y4gl3j30u014077e.jpg": "万家丽小吃一条街，牙再痛香锅不能缺",
-    "https://tvax4.sinaimg.cn/large/006CfxqRgy1gkk0c89hpwj31400u0x1x.jpg" : "第一次坐摩天轮，婧婧一点\"都不紧张\"",
+    "https://tvax4.sinaimg.cn/large/006CfxqRgy1gkk0c89hpwj31400u0x1x.jpg" : "第一次坐摩天轮，婧婧一点\\\"都不紧张\\\"",
     "https://tva3.sinaimg.cn/large/005UCIEPgy1gk1zkmnju5j31w02iox6r.jpg": "㊗️婧婧小可爱生日快乐🎂",
     "https://tva4.sinaimg.cn/large/006CfxqRgy1gkk08l74yrj30u0140dy4.jpg" : "今天是LSD的生日，婧婧出发第一次见家长（心要跳出来了）",
     "https://tvax3.sinaimg.cn/large/006CfxqRgy1gkk06p0oogj32ao328qv6.jpg" : "愿望许了挺久，后来问他是希望我们的未来预想一切成真...",
