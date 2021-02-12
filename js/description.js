@@ -49,6 +49,22 @@ var desc = {
     "https://tva3.sinaimg.cn/large/006CfxqRgy1gkjzuk1e2kj32io1w0x6r.jpg": "人比花娇 hhhh",
     "https://tva1.sinaimg.cn/large/006CfxqRgy1gkjzxq86roj31w02iox6r.jpg" : "日常茶颜：超多奶油和碧根果的一次幽兰拿铁！喜欢",
     "https://tvax1.sinaimg.cn/large/006CfxqRgy1gkk0gp84k4j33282aokjn.jpg" : "盛香亭和茶颜老好搭档辽~",
+    "https://tva1.sinaimg.cn/large/005UCIEPgy1gnky5tmerrj31121jlb29.jpg" : "茶叶料包居然从鹿邑发货🤔",
+    "https://tva2.sinaimg.cn/large/005UCIEPgy1gnky74b9l1j335s2dckjm.jpg" : "低音炮唱K歌之王太“好听”啦",
+    "https://tva2.sinaimg.cn/large/005UCIEPgy1gnky7xo7mvj335s2dcx6w.jpg" : "一起晒太阳 冬日暖洋洋",
+    "https://tva3.sinaimg.cn/large/005UCIEPgy1gnky8qbyosj32u8468x6r.jpg" : "又去看🦷了  55555",
+    "https://tvax2.sinaimg.cn/large/005UCIEPgy1gnky9a55sxj32dc35su0y.jpg" : "怎么能这么帅捏🤩",
+    "https://tva1.sinaimg.cn/large/005UCIEPgy1gnky4zwyx0j315o15ou0x.jpg" : "大脚和大脚，永远不分离",
+    "https://tva4.sinaimg.cn/large/005UCIEPgy1gnky3s7zg5j335s2dchdv.jpg" : "带盾去刘阳哥🏠 和兜兜一起吃日料耶",
+    "https://tvax1.sinaimg.cn/large/005UCIEPgy1gnky11p408j31jk15ob2a.jpg" : "属于我和他的年夜饭🥰",
+    "https://tvax1.sinaimg.cn/large/005UCIEPgy1gnky24osruj319d2iq7wk.jpg" : "华而不实",  
+    "https://tva3.sinaimg.cn/large/005UCIEPgy1gnky2j31egj32681moqv6.jpg" : "跨年照片充一充 爱心发射biubiubiu～",
+    "https://tvax4.sinaimg.cn/large/005UCIEPgy1gnkyc7a7g8j32681mo1kz.jpg" : "就地过年的我们！今晚他说我感觉我离不开你了（jj得意）",
+    "https://tva2.sinaimg.cn/large/005UCIEPgy1gnkxwli5ssj335s2dc7wi.jpg" : "今年初一吃到了lsd煮的🥟！！",
+    "https://tvax1.sinaimg.cn/large/005UCIEPgy1gnkxzp9xm2j335s2dcb2b.jpg" : "我做的🥦味道像吃牛蒡？",
+    "https://tvax4.sinaimg.cn/large/005UCIEPgy1gnkxru8xvoj32dc35sb2b.jpg" : "本命年牛起来👍",
+    
+    
 }
 
 $(function () {
