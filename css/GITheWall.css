@@ -34,6 +34,10 @@
    display: none
  }
 
+ .GITheWallBtn {
+   display: none
+ }
+
 .GITheWall ul {
   list-style: none;
   padding: 20px 0;

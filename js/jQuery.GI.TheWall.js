@@ -155,10 +155,10 @@
        */
 
       var execCallback = function (callback, arg) {
-          if (typeof callback === 'function') {
-            $.proxy(callback, self, arg)();
-          }
-        },
+        if (typeof callback === 'function') {
+          $.proxy(callback, self, arg)();
+        }
+      },
 
 
         /**
@@ -209,7 +209,7 @@
          */
         _updateContentPointerPosition = function () {
           this.$contentPointer.css({
-            left: this.selectedLiData.offset.left + this.$selectedli.width() / 2
+            left: this.$selectedli.offset().left + this.$selectedli.width() / 2
           });
         },
         /**
@@ -288,9 +288,8 @@
         _onItemChange = function () {
 
           // this.currentIndex must be always into a valid range
-          if (this.selectedLiData.index < 0 || this.selectedLiData.index >= this.itemsLength) return;
-
-          this.currentIndex = this.selectedLiData.index;
+          if (this.$selectedli.index() < 0 || this.$selectedli.index() >= this.itemsLength) return;
+          this.currentIndex = this.$selectedli.index();
 
           this.loadInnerContents();
 
@@ -437,15 +436,15 @@
         } else {
           execCallback(options.onContentLoading);
           switch (this.selectedLiData.contenttype) {
-          case 'ajax':
-            callback = _loadAjaxContents(href);
-            break;
-          case 'inline':
-            callback = _loadInlineContent(href);
-            break;
-          default:
-            callback = _loadImage(href, text);
-            break;
+            case 'ajax':
+              callback = _loadAjaxContents(href);
+              break;
+            case 'inline':
+              callback = _loadInlineContent(href);
+              break;
+            default:
+              callback = _loadImage(href, text);
+              break;
           }
 
           callback.then(function () {
@@ -586,7 +585,7 @@
 
       this.updateExpanderPosition = function () {
         if (!isOpened) return;
-        var newTopPosition = this.selectedLiData.offset.top + this.$selectedli.height() + options.margin.top;
+        var newTopPosition = this.$selectedli.offset().top + this.$selectedli.height() + options.margin.top;
         // set expandWrapper top position
         this.$expanderWrapper.css({
           top: newTopPosition

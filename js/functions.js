@@ -114,6 +114,7 @@ function showMessages() {
         showLoveU()
     })
     $(".GITheWall").fadeIn(5000)
+    $(".GITheWallBtn").fadeIn(5000)
 }
 
 function adjustWordsPosition() {
